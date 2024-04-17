@@ -12,10 +12,7 @@ const src = {
         person: {
           name: 'Jane',
           age: 20,
-          dogs: [
-            { name: 'Mandy' },
-            { name: 'Cyndy' },
-          ],
+          dogs: [{ name: 'Mandy' }, { name: 'Cyndy' }],
           isHappy: true,
         },
       },
@@ -44,15 +41,14 @@ const expected = [
 
 const srcReadme = {
   isNested: true,
-  people: [{
-    name: 'Jane',
-    lastName: 'Doe',
-    dogs: [
-      { name: 'Skippy' },
-      { name: 'Lessie' },
-    ],
-    isHappy: true,
-  }],
+  people: [
+    {
+      name: 'Jane',
+      lastName: 'Doe',
+      dogs: [{ name: 'Skippy' }, { name: 'Lessie' }],
+      isHappy: true,
+    },
+  ],
 };
 
 const expectedReadme = [

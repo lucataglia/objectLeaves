@@ -1,10 +1,10 @@
 {
   "name": "objleaves",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "A util method that returns all object leaves",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "parcel build ./src/index.js --out-dir ./dist/",
+    "build": "parcel build ./src/index.js",
     "lint": "node ./node_modules/eslint/bin/eslint . --ext .js --fix",
     "test": "jest"
   },
@@ -31,9 +31,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.3.4",
     "jest": "^26.6.3",
-    "parcel": "^2.2.1"
+    "parcel": "2.12.0"
   },
-  "dependencies": {
-    "isobject": "^4.0.0"
-  }
+  "dependencies": {}
 }
