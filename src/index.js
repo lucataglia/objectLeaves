@@ -1,4 +1,4 @@
-import isObject from "./helpers/isObject";
+import isObject from './helpers/isObject';
 
 export default (obj, acc = []) => {
   const fn = (o, s) => {
